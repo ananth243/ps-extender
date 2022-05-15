@@ -1,0 +1,25 @@
+{
+  "name": "ps-extender",
+  "version": "2.0.0",
+  "description": "Extends functionality of PSD interface by adding controls for swapping rows quickly using the generated tools by the script ",
+  "devDependencies": {
+    "@types/chrome": "^0.0.186"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && cp -R /assets /build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehulmpt/ps-extender.git"
+  },
+  "keywords": [],
+  "author": "Mehul Mohan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehulmpt/ps-extender/issues"
+  },
+  "homepage": "https://github.com/mehulmpt/ps-extender#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
