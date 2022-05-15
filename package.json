@@ -6,7 +6,8 @@
     "@types/chrome": "^0.0.186"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json && cp -R /assets /build"
+    "dev": "tsc -p tsconfig.json -w",
+    "build": "tsc -p tsconfig.json && cp -R ./assets/* build"
   },
   "repository": {
     "type": "git",
